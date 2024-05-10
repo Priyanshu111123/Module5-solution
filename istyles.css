@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    background-image: url('https://rishikeshcamps.in/wp-content/uploads/2023/05/restaarant.jpg');
+    background-size: 100% 100%;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tile {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: #effc3b;
+    border: 1px solid #ea5115;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tile a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
